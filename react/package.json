@@ -1,0 +1,30 @@
+{
+  "name": "webpack-starter",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.17.0",
+    "jquery": "^2.2.3",
+    "lodash": "^4.13.1",
+    "node-sass": "^3.7.0",
+    "path": "^0.12.7",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.prod.js --colors -p",
+    "build.watch": "webpack --watch --config ./webpack.config.prod.js --colors -p",
+    "dev": "webpack-dev-server --config ./webpack.config.dev.js --progress --colors --display-error-details"
+  }
+}

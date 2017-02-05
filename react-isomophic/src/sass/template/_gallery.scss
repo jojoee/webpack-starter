@@ -1,0 +1,8 @@
+.gallery {
+
+  .img {
+    @include bg-dummy;
+    width: 100px;
+    height: 100px;
+  }
+}

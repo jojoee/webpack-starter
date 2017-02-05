@@ -1,0 +1,21 @@
+# Dependency
+node_modules/
+bower_components/
+
+# Backup
+bk*
+
+# Compiled
+babel/dist
+react/dist
+react-isomophic/dist
+react-isomophic/server.bundle.js
+
+# Graphic
+*.psd
+
+# Log
+npm-debug.log
+
+# Others
+yarn.lock

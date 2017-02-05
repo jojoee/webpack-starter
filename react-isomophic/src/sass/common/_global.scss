@@ -1,0 +1,82 @@
+body {
+  min-height: 100vh;
+}
+
+a {
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  
+}
+
+input {
+
+  &[type="radio"],
+  &[type="checkbox"] {
+
+  }
+
+  &[type="submit"] {
+
+  }
+}
+
+textarea {
+
+}
+
+select {
+
+}
+
+label {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+:placeholder-shown {
+
+}
+
+/*================================================================ GENERAL
+*/
+
+#app {
+  background-color: #fafafa;
+}
+
+.serif {
+  font-family: serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}

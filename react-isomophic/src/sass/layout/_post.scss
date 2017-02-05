@@ -1,0 +1,43 @@
+/*================================================================ LISTING
+*/
+
+.article-list {
+  padding: 24px 0;
+}
+
+/*================================================================ ARTICLE
+*/
+
+.article {
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  margin-bottom: 12px;
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.article-header {
+  margin-bottom: 6px;
+  color: red;
+}
+
+.article-body {
+
+  > .title {
+    color: #6262ff;
+    font-size: 24px;
+    display: block;
+  }
+
+  > .content {
+
+  }
+}
+
+.article-footer {
+
+}

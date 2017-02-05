@@ -1,0 +1,6 @@
+{
+  "name": "webpack-starter",
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

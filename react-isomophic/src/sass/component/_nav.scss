@@ -1,0 +1,38 @@
+/*================================================================ NAV
+*/
+
+.nav {
+  // height: 42px;
+  background-color: #373e4d;
+  overflow: hidden;
+  color: #fff;
+
+  .logo {
+    display: inline-block;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+  }
+}
+
+.main-menu {
+  float: right;
+
+  > li {
+    float: left;
+
+    > a {
+      float: left;
+      height: 42px;
+      display: inline-block;
+      color: #fff;
+      line-height: 42px;
+      padding: 0 6px;
+    }
+  }
+}
+
+/* hack */
+li > a.active {
+  color: red;
+}

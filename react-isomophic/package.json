@@ -1,0 +1,41 @@
+{
+  "name": "webpack-starter",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.13.4",
+    "path": "^0.12.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.17.0",
+    "jquery": "^2.2.3",
+    "lodash": "^4.13.1",
+    "node-sass": "^3.7.0",
+    "react-hot-loader": "^1.3.0",
+    "react-router": "^2.4.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "client.dev": "webpack-dev-server --config ./webpack.config.client.dev.js --colors --history-api-fallback",
+    "client.build": "webpack --config ./webpack.config.client.js --colors",
+    "client.build.watch": "webpack --config ./webpack.config.client.js --colors --watch",
+    "client.build.prod": "webpack --config ./webpack.config.client.prod.js --colors -p",
+    "server.build": "webpack --config webpack.config.server.js",
+    "server.build.watch": "webpack --config webpack.config.server.js --colors --watch",
+    "server.build.prod": "webpack --config webpack.config.server.js --colors -p",
+    "start": "node ./server.bundle.js",
+    "start.norender": "node ./server.norender.js"
+  }
+}
