@@ -1,5 +1,5 @@
 # webpack-starter
-[![Build Status](https://travis-ci.org/jojoee/webpack-starter.svg)](https://travis-ci.org/jojoee/webpack-starter)
+[![Build Status](https://travis-ci.org/jojoee/webpack-starter.svg)](https://travis-ci.org/jojoee/webpack-starter) [![Greenkeeper badge](https://badges.greenkeeper.io/jojoee/webpack-starter.svg)](https://greenkeeper.io/)
 
 ## Getting Started
 1. Install [Node.js](https://nodejs.org/)
