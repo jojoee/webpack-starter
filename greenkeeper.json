@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "babel/package.json",
+        "react-isomophic/package.json",
+        "react/package.json"
+      ]
+    }
+  }
+}
